@@ -1,5 +1,7 @@
 const { exec } = require("child_process");
 
+// every time you run the script a Mcdonalds water is sent to my house. 
+// Please don't run it
 async function McWater() {
     // Create new order with McWater from McDonalds
     const scriptPath = './requests/createDraftOrder.sh';
